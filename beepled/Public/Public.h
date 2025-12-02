@@ -1,0 +1,15 @@
+#ifndef _Public_H
+#define _Public_h
+
+#include "reg52.h"
+#include "led.h"
+#include "beep.h"
+
+typedef unsigned int u16;	//对系统默认数据类型进行重定义
+typedef unsigned char u8;
+
+
+void delay_10us(u16 a);
+void delay_ms(u16 ms);
+
+#endif

@@ -1,0 +1,31 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+F:\µ¥Æ¬»ú\ledbeep\beepled\beepled.uvproj
+Project File Date:  12/02/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling beep.c...
+APP\BEEP\BEEP.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+compiling led.c...
+APP\LED\LED.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+compiling main.c...
+USER\MAIN.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+compiling Public.c...
+PUBLIC\PUBLIC.C(1): warning C500: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=9.0 xdata=0 code=77
+creating hex file from ".\Obj\beepled"...
+".\Obj\beepled" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=9.0 xdata=0 code=77
+creating hex file from ".\Obj\beepled"...
+".\Obj\beepled" - 0 Error(s), 1 Warning(s).

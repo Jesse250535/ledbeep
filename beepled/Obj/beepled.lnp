@@ -1,0 +1,6 @@
+".\Obj\beep.obj",
+".\Obj\led.obj",
+".\Obj\main.obj",
+".\Obj\Public.obj" 
+TO ".\Obj\beepled" 
+PRINT(".\Obj\beepled.m51") RAMSIZE(256) 
