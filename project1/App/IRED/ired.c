@@ -1,6 +1,8 @@
 #include "ired.h"
 
-void ired_init0(void)
+u8 gired_data[4];
+
+void ired_init(void)
 {
 	IT0=1;	
 	EX0=1;
@@ -38,10 +40,10 @@ void ired() interrupt 0
 
 			for(i=0;i<4;i++)
 			{
-				for(i=0;i<8;i++)
+				for(j=0;j<8;j++)
 				{
 					time_cnt=600;
-					while((ired==0)&&time_cnt)
+					while((ired1==0)&&time_cnt)
 					{
 						delay_10us(1);
 						time_cnt--;
@@ -49,7 +51,7 @@ void ired() interrupt 0
 					}
 
 					time_cnt=20;
-					while(ired)
+					while(ired1)
 					{
 						delay_10us(10);
 						ired_high_time++;
@@ -66,10 +68,9 @@ void ired() interrupt 0
 		if(gired_data[2]!=~gired_data[3])
 		{
 			for(i=0;i<4;i++)
-			{
-				gired_data[i]=0;
-				return;
-			}
+			gired_data[i]=0;
+			return;
+			
 		}
 			
 	}	

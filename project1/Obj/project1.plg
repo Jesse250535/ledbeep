@@ -1,487 +1,449 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\admin\Desktop\ledbeep\project1\project1.uvproj
+Project File Date:  12/12/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling main.c...
+USER\MAIN.C(10): warning C206: 'ired_init': missing function-prototype
+USER\MAIN.C(14): error C202: 'gired_data': undefined identifier
+USER\MAIN.C(15): error C202: 'gired_data': undefined identifier
+Target not created
 Build target 'Target 1'
 compiling beep.c...
 compiling led.c...
+compiling ired.c...
+APP\IRED\IRED.C(54): warning C276: constant in condition expression
+compiling smg.c...
 compiling Public.c...
+compiling main.c...
+USER\MAIN.C(10): warning C206: 'ired_init': missing function-prototype
+USER\MAIN.C(14): error C202: 'gired_data': undefined identifier
+USER\MAIN.C(15): error C202: 'gired_data': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+USER\MAIN.C(10): warning C206: 'ired_init': missing function-prototype
+USER\MAIN.C(14): error C202: 'gired_data': undefined identifier
+USER\MAIN.C(15): error C202: 'gired_data': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+USER\MAIN.C(10): warning C206: 'ired_init': missing function-prototype
+USER\MAIN.C(14): error C202: 'gired_data': undefined identifier
+USER\MAIN.C(15): error C202: 'gired_data': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+Target not created
+Build target 'Target 1'
+compiling main.c...
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+.\PUBLIC\PUBLIC.H(7): error C231: 'u16': redefinition
+.\PUBLIC\PUBLIC.H(8): error C231: 'u8': redefinition
+Target not created
+Build target 'Target 1'
+compiling ired.c...
+APP\IRED\IRED.C(54): warning C276: constant in condition expression
+compiling smg.c...
+compiling Public.c...
+compiling main.c...
+USER\MAIN.C(20): warning C206: 'beep_on': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  BEEP_ON
+    MODULE:  .\Obj\main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  BEEP_ON
+    MODULE:  .\Obj\main.obj (MAIN)
+    ADDRESS: 028BH
+Program Size: data=43.0 xdata=0 code=770
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 5 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  BEEP_ON
+    MODULE:  .\Obj\main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  BEEP_ON
+    MODULE:  .\Obj\main.obj (MAIN)
+    ADDRESS: 028BH
+Program Size: data=43.0 xdata=0 code=770
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+USER\MAIN.C(10): warning C206: 'ired_init': missing function-prototype
+USER\MAIN.C(14): error C202: 'gired_data': undefined identifier
+USER\MAIN.C(15): error C202: 'gired_data': undefined identifier
+Target not created
+Build target 'Target 1'
+compiling main.c...
+USER\MAIN.C(20): warning C206: 'beep_on': missing function-prototype
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  BEEP_ON
+    MODULE:  .\Obj\main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  BEEP_ON
+    MODULE:  .\Obj\main.obj (MAIN)
+    ADDRESS: 028BH
+Program Size: data=43.0 xdata=0 code=770
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
 compiling main.c...
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?BEEP_ON?BEEP
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?LED2_ON?LED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_DELAY_10US?PUBLIC
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=43.0 xdata=0 code=757
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+USER\MAIN.C(31): warning C206: 'led_on': missing function-prototype
+USER\MAIN.C(36): warning C206: 'led_off': missing function-prototype
+USER\MAIN.C(41): warning C206: 'beep_on': missing function-prototype
+USER\MAIN.C(47): warning C206: 'smg_set_mode': missing function-prototype
+USER\MAIN.C(47): error C267: 'smg_set_mode': requires ANSI-style prototype
+Target not created
+Build target 'Target 1'
+compiling main.c...
+USER\MAIN.C(31): warning C206: 'led_on': missing function-prototype
+USER\MAIN.C(36): warning C206: 'led_off': missing function-prototype
+USER\MAIN.C(41): warning C206: 'beep_on': missing function-prototype
+USER\MAIN.C(72): warning C206: 'beep_off': missing function-prototype
+linking...
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  BEEP_OFF
+    MODULE:  .\Obj\main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LED_OFF
+    MODULE:  .\Obj\main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  BEEP_ON
+    MODULE:  .\Obj\main.obj (MAIN)
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  LED_ON
+    MODULE:  .\Obj\main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LED_ON
+    MODULE:  .\Obj\main.obj (MAIN)
+    ADDRESS: 017BH
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  LED_OFF
+    MODULE:  .\Obj\main.obj (MAIN)
+    ADDRESS: 0180H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  BEEP_ON
+    MODULE:  .\Obj\main.obj (MAIN)
+    ADDRESS: 0185H
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  BEEP_OFF
+    MODULE:  .\Obj\main.obj (MAIN)
+    ADDRESS: 01C4H
+Program Size: data=46.0 xdata=0 code=865
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 12 Warning(s).
+Build target 'Target 1'
+compiling main.c...
+USER\MAIN.C(20): warning C206: 'beep_on': missing function-prototype
+linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_DELAY_MS?PUBLIC
-Program Size: data=9.0 xdata=0 code=64
+*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
+    SYMBOL:  BEEP_ON
+    MODULE:  .\Obj\main.obj (MAIN)
+*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
+    SYMBOL:  BEEP_ON
+    MODULE:  .\Obj\main.obj (MAIN)
+    ADDRESS: 028BH
+Program Size: data=43.0 xdata=0 code=770
 creating hex file from ".\Obj\project1"...
 ".\Obj\project1" - 0 Error(s), 4 Warning(s).
 Build target 'Target 1'
 compiling ired.c...
-APP\IRED\IRED.H(8): error C129: missing ';' before 'gired_data'
-compiling Public.c...
-PUBLIC\PUBLIC.H(7): warning C318: can't open file 'ired.h'
-compiling main.c...
-.\PUBLIC\PUBLIC.H(7): warning C318: can't open file 'ired.h'
-Target not created
-Build target 'Target 1'
-compiling ired.c...
-APP\IRED\IRED.H(8): error C129: missing ';' before 'gired_data'
-Target not created
-Build target 'Target 1'
-compiling ired.c...
-APP\IRED\IRED.H(8): error C129: missing ';' before 'gired_data'
-Target not created
-Build target 'Target 1'
-compiling ired.c...
-APP\IRED\IRED.C(13): error C231: 'ired': redefinition
-APP\IRED\IRED.C(77): error C231: 'ired': redefinition
-Target not created
-Build target 'Target 1'
-compiling ired.c...
-APP\IRED\IRED.C(8): error C202: 'ired': undefined identifier
-Target not created
-Build target 'Target 1'
-compiling ired.c...
-APP\IRED\IRED.C(29): warning C276: constant in condition expression
-APP\IRED\IRED.C(32): error C193: '&&': bad operand type
-Target not created
-Build target 'Target 1'
-compiling ired.c...
-APP\IRED\IRED.C(29): warning C276: constant in condition expression
-APP\IRED\IRED.C(52): warning C276: constant in condition expression
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?BEEP_ON?BEEP
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?LED2_ON?LED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?IRED_INIT0?IRED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_DELAY_MS?PUBLIC
-*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00DDH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00F1H
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010FH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 0112H
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 0120H
-Program Size: data=14.0 xdata=0 code=391
-creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 12 Warning(s).
-Build target 'Target 1'
-compiling ired.c...
-APP\IRED\IRED.C(52): warning C276: constant in condition expression
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?BEEP_ON?BEEP
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?LED2_ON?LED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?IRED_INIT0?IRED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_DELAY_MS?PUBLIC
-*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00D8H
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00ECH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010AH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010DH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 011BH
-Program Size: data=14.0 xdata=0 code=386
-creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 11 Warning(s).
-Build target 'Target 1'
-compiling ired.c...
-.\PUBLIC\PUBLIC.H(8): warning C318: can't open file 'smg.h'
-APP\IRED\IRED.C(52): warning C276: constant in condition expression
+APP\IRED\IRED.C(54): warning C276: constant in condition expression
 compiling smg.c...
-.\PUBLIC\PUBLIC.H(7): warning C318: can't open file 'ired.h'
+compiling beep.c...
 compiling Public.c...
-PUBLIC\PUBLIC.H(7): warning C318: can't open file 'ired.h'
-PUBLIC\PUBLIC.H(8): warning C318: can't open file 'smg.h'
 compiling main.c...
-.\PUBLIC\PUBLIC.H(7): warning C318: can't open file 'ired.h'
-.\PUBLIC\PUBLIC.H(8): warning C318: can't open file 'smg.h'
+USER\MAIN.C(20): warning C206: 'beep_on': missing function-prototype
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?BEEP_ON?BEEP
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?LED2_ON?LED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?IRED_INIT0?IRED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SMG_DISPLAY?SMG
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_DELAY_MS?PUBLIC
-*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00D8H
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00ECH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010AH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010DH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 011BH
-Program Size: data=36.0 xdata=0 code=725
+Program Size: data=43.0 xdata=0 code=779
 creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 18 Warning(s).
+".\Obj\project1" - 0 Error(s), 3 Warning(s).
 Build target 'Target 1'
 compiling ired.c...
-APP\IRED\IRED.H(8): error C129: missing ';' before 'gired_data'
-Target not created
-Build target 'Target 1'
-compiling ired.c...
-.\PUBLIC\PUBLIC.H(8): warning C318: can't open file 'smg.h'
-APP\IRED\IRED.C(52): warning C276: constant in condition expression
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?BEEP_ON?BEEP
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?LED2_ON?LED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?IRED_INIT0?IRED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SMG_DISPLAY?SMG
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=43.0 xdata=0 code=775
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling ired.c...
+linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_DELAY_MS?PUBLIC
-*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00D8H
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00ECH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010AH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010DH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 011BH
-Program Size: data=36.0 xdata=0 code=725
+Program Size: data=43.0 xdata=0 code=775
 creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 13 Warning(s).
+".\Obj\project1" - 0 Error(s), 1 Warning(s).
 Build target 'Target 1'
+compiling ired.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=43.0 xdata=0 code=777
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling ired.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=43.0 xdata=0 code=777
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling ired.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=43.0 xdata=0 code=775
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling ired.c...
+compiling smg.c...
 compiling beep.c...
 compiling led.c...
-compiling ired.c...
-APP\IRED\IRED.C(52): warning C276: constant in condition expression
-compiling smg.c...
 compiling Public.c...
 compiling main.c...
+USER\MAIN.C(20): warning C206: 'beep_on': missing function-prototype
 linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?BEEP_ON?BEEP
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?LED2_ON?LED
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?IRED_INIT0?IRED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SMG_DISPLAY?SMG
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_DELAY_MS?PUBLIC
-*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00D8H
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00ECH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010AH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010DH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 011BH
-Program Size: data=36.0 xdata=0 code=725
+Program Size: data=43.0 xdata=0 code=778
 creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 12 Warning(s).
+".\Obj\project1" - 0 Error(s), 3 Warning(s).
 Build target 'Target 1'
 compiling main.c...
-USER\MAIN.C(8): warning C206: 'led2_on': missing function-prototype
-USER\MAIN.C(9): warning C206: 'beep_on': missing function-prototype
+USER\MAIN.C(20): warning C206: 'beep_on': missing function-prototype
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?IRED_INIT0?IRED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SMG_DISPLAY?SMG
+    SEGMENT: ?PR?LED2_ON?LED
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_DELAY_MS?PUBLIC
-*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00D8H
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00ECH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010AH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010DH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 011BH
-Program Size: data=36.0 xdata=0 code=738
+Program Size: data=43.0 xdata=0 code=778
 creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 11 Warning(s).
+".\Obj\project1" - 0 Error(s), 3 Warning(s).
 Build target 'Target 1'
 compiling main.c...
-USER\MAIN.C(8): warning C206: 'led2_on': missing function-prototype
-USER\MAIN.C(9): warning C206: 'beep_on': missing function-prototype
+USER\MAIN.C(20): warning C206: 'beep_on': missing function-prototype
+USER\MAIN.C(24): warning C206: 'led2_on': missing function-prototype
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?IRED_INIT0?IRED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SMG_DISPLAY?SMG
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=43.0 xdata=0 code=790
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling led.c...
+compiling main.c...
+USER\MAIN.C(20): warning C206: 'beep_on': missing function-prototype
+USER\MAIN.C(24): warning C206: 'led2_on': missing function-prototype
+linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_DELAY_MS?PUBLIC
-*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00D8H
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00ECH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010AH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010DH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 011BH
-Program Size: data=36.0 xdata=0 code=738
+Program Size: data=43.0 xdata=0 code=791
 creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 11 Warning(s).
+".\Obj\project1" - 0 Error(s), 3 Warning(s).
 Build target 'Target 1'
 compiling main.c...
-USER\MAIN.C(8): warning C206: 'led2_on': missing function-prototype
-USER\MAIN.C(9): warning C206: 'beep_on': missing function-prototype
+USER\MAIN.C(20): warning C206: 'beep_on': missing function-prototype
+USER\MAIN.C(25): warning C206: 'led2_on': missing function-prototype
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?IRED_INIT0?IRED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SMG_DISPLAY?SMG
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_DELAY_MS?PUBLIC
-*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00D8H
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00ECH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010AH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010DH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 011BH
-Program Size: data=36.0 xdata=0 code=738
+Program Size: data=43.0 xdata=0 code=798
 creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 11 Warning(s).
+".\Obj\project1" - 0 Error(s), 3 Warning(s).
 Build target 'Target 1'
 compiling main.c...
-USER\MAIN.C(8): warning C206: 'led2_on': missing function-prototype
-USER\MAIN.C(9): warning C206: 'beep_on': missing function-prototype
+USER\MAIN.C(20): warning C206: 'beep_on': missing function-prototype
+USER\MAIN.C(25): warning C206: 'led2_on': missing function-prototype
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?IRED_INIT0?IRED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SMG_DISPLAY?SMG
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=43.0 xdata=0 code=798
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 3 Warning(s).
+Build target 'Target 1'
+compiling led.c...
+compiling main.c...
+USER\MAIN.C(20): warning C206: 'beep_on': missing function-prototype
+USER\MAIN.C(25): warning C206: 'led2_on': missing function-prototype
+USER\MAIN.C(29): warning C206: 'led2_off': missing function-prototype
+linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_DELAY_MS?PUBLIC
-*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00D8H
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00ECH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010AH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010DH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 011BH
-Program Size: data=36.0 xdata=0 code=738
+Program Size: data=43.0 xdata=0 code=814
 creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 11 Warning(s).
+".\Obj\project1" - 0 Error(s), 4 Warning(s).
 Build target 'Target 1'
 compiling main.c...
-USER\MAIN.C(8): warning C206: 'led2_on': missing function-prototype
+USER\MAIN.C(20): warning C206: 'beep_on': missing function-prototype
+USER\MAIN.C(25): warning C206: 'led2_on': missing function-prototype
+USER\MAIN.C(27): warning C206: 'led2_off': missing function-prototype
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?BEEP_ON?BEEP
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?IRED_INIT0?IRED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SMG_DISPLAY?SMG
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_DELAY_MS?PUBLIC
-*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00D8H
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00ECH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010AH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010DH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 011BH
-Program Size: data=36.0 xdata=0 code=735
+Program Size: data=43.0 xdata=0 code=806
 creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 11 Warning(s).
+".\Obj\project1" - 0 Error(s), 4 Warning(s).
 Build target 'Target 1'
+compiling smg.c...
 compiling main.c...
-USER\MAIN.C(8): warning C206: 'led2_on': missing function-prototype
+USER\MAIN.C(20): warning C206: 'beep_on': missing function-prototype
+USER\MAIN.C(25): warning C206: 'led2_on': missing function-prototype
+USER\MAIN.C(27): warning C206: 'led2_off': missing function-prototype
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?BEEP_ON?BEEP
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?IRED_INIT0?IRED
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_SMG_DISPLAY?SMG
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=43.0 xdata=0 code=806
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 4 Warning(s).
+Build target 'Target 1'
+linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?_DELAY_MS?PUBLIC
-*** WARNING L1: UNRESOLVED EXTERNAL SYMBOL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00D8H
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 00ECH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010AH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 010DH
-*** WARNING L2: REFERENCE MADE TO UNRESOLVED EXTERNAL
-    SYMBOL:  GIRED_DATA
-    MODULE:  .\Obj\ired.obj (IRED)
-    ADDRESS: 011BH
-Program Size: data=36.0 xdata=0 code=735
+Program Size: data=43.0 xdata=0 code=806
 creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 11 Warning(s).
+".\Obj\project1" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+compiling smg.c...
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=43.0 xdata=0 code=806
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=43.0 xdata=0 code=806
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=43.0 xdata=0 code=806
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=43.0 xdata=0 code=806
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=43.0 xdata=0 code=806
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 1 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_DELAY_MS?PUBLIC
+Program Size: data=43.0 xdata=0 code=806
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 1 Warning(s).

@@ -1,40 +1,60 @@
-C51 COMPILER V9.01   MAIN                                                                  12/12/2025 16:12:39 PAGE 1   
+C51 COMPILER V9.01   MAIN                                                                  12/12/2025 18:02:53 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE MAIN
 OBJECT MODULE PLACED IN .\Obj\main.obj
-COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE User\main.c BROWSE INCDIR(.\App\BEEP;.\App\LED;.\Public) DEBUG OBJECTEXTEND
-                    - PRINT(.\Obj\main.lst) OBJECT(.\Obj\main.obj)
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE User\main.c BROWSE INCDIR(.\Public;.\App\IRED;.\App\smg;.\App\BEEP;.\App\LE
+                    -D) DEBUG OBJECTEXTEND PRINT(.\Obj\main.lst) OBJECT(.\Obj\main.obj)
 
 line level    source
 
-   1          #include "Public.h"
-   2          
-   3          void main()
-   4          {
-   5   1      
-   6   1              while(1)
-   7   1              {
-   8   2                      led2_on();
-*** WARNING C206 IN LINE 8 OF USER\MAIN.C: 'led2_on': missing function-prototype
-   9   2      //              beep_on();
-  10   2                      delay_10us(60);
-  11   2      
-  12   2      
-  13   2              }
-  14   1      
-  15   1      }
+   1          #include "smg.h"
+   2          #include "ired.h"
+   3          #include "public.h"
+   4          
+   5          
+   6          void main()
+   7          {
+   8   1              u8 ired_buf[3];
+   9   1      
+  10   1              ired_init();//红外初始化
+  11   1      
+  12   1              while(1)
+  13   1              {
+  14   2                      ired_buf[0]=gsmg_code[gired_data[2]/16];//将控制码高 4 位转换为数码
+  15   2                      ired_buf[1]=gsmg_code[gired_data[2]%16];//将控制码低 4 位转换为数码
+  16   2                      ired_buf[2]=0x76;//显示 H 的段码
+  17   2                      smg_display(ired_buf,6);
+  18   2                      if((ired_buf[0]==0x71)&&(ired_buf[1]==0x71))
+  19   2                      {
+  20   3                              beep_on();
+*** WARNING C206 IN LINE 20 OF USER\MAIN.C: 'beep_on': missing function-prototype
+  21   3                              delay_10us(60);
+  22   3                      }
+  23   2                      if((ired_buf[0]==0x06)&&(ired_buf[1]==0x39))
+  24   2                      {
+  25   3                              led2_on();
+*** WARNING C206 IN LINE 25 OF USER\MAIN.C: 'led2_on': missing function-prototype
+  26   3                      }else{
+  27   3                              led2_off();
+*** WARNING C206 IN LINE 27 OF USER\MAIN.C: 'led2_off': missing function-prototype
+  28   3                      }
+  29   2      
+  30   2      
+  31   2              }
+  32   1      
+  33   1      }
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =     12    ----
+   CODE SIZE        =     78    ----
    CONSTANT SIZE    =   ----    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----
-   DATA SIZE        =   ----    ----
+   DATA SIZE        =   ----       3
    IDATA SIZE       =   ----    ----
    BIT SIZE         =   ----    ----
 END OF MODULE INFORMATION.
 
 
-C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)
+C51 COMPILATION COMPLETE.  3 WARNING(S),  0 ERROR(S)

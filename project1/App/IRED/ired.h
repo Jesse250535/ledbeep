@@ -3,10 +3,14 @@
 
 #include "public.h"
 
-sbit ired1 = P3^2;
+//管脚定义
+sbit ired1=P3^2;
 
+//声明变量
 extern u8 gired_data[4];
 
-void ired_init0(void);
+
+//函数声明
+void ired_init(void);
 
 #endif

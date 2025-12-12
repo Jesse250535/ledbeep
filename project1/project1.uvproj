@@ -294,7 +294,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\App\BEEP;.\App\LED;.\Public</IncludePath>
+              <IncludePath>.\Public;.\App\IRED;.\App\smg;.\App\BEEP;.\App\LED</IncludePath>
             </VariousControls>
           </C51>
           <Ax51>
@@ -347,16 +347,6 @@
           <GroupName>App</GroupName>
           <Files>
             <File>
-              <FileName>beep.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\App\BEEP\beep.c</FilePath>
-            </File>
-            <File>
-              <FileName>led.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>.\App\LED\led.c</FilePath>
-            </File>
-            <File>
               <FileName>ired.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\App\IRED\ired.c</FilePath>
@@ -365,6 +355,16 @@
               <FileName>smg.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\App\smg\smg.c</FilePath>
+            </File>
+            <File>
+              <FileName>beep.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\App\BEEP\beep.c</FilePath>
+            </File>
+            <File>
+              <FileName>led.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\App\LED\led.c</FilePath>
             </File>
           </Files>
         </Group>

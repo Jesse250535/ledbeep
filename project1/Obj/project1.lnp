@@ -1,7 +1,7 @@
-".\Obj\beep.obj",
-".\Obj\led.obj",
 ".\Obj\ired.obj",
 ".\Obj\smg.obj",
+".\Obj\beep.obj",
+".\Obj\led.obj",
 ".\Obj\Public.obj",
 ".\Obj\main.obj" 
 TO ".\Obj\project1" 

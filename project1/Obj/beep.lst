@@ -1,10 +1,10 @@
-C51 COMPILER V9.01   BEEP                                                                  12/12/2025 15:42:57 PAGE 1   
+C51 COMPILER V9.01   BEEP                                                                  12/12/2025 17:30:26 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE BEEP
 OBJECT MODULE PLACED IN .\Obj\beep.obj
-COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE App\BEEP\beep.c BROWSE INCDIR(.\App\BEEP;.\App\LED;.\Public) DEBUG OBJECTEX
-                    -TEND PRINT(.\Obj\beep.lst) OBJECT(.\Obj\beep.obj)
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE App\BEEP\beep.c BROWSE INCDIR(.\Public;.\App\IRED;.\App\smg;.\App\BEEP;.\Ap
+                    -p\LED) DEBUG OBJECTEXTEND PRINT(.\Obj\beep.lst) OBJECT(.\Obj\beep.obj)
 
 line level    source
 
@@ -13,12 +13,12 @@ line level    source
    3          void beep_on()
    4          {
    5   1              beep=!beep;
-   6   1              
+   6   1              delay_10us(60);
    7   1      }
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
-   CODE SIZE        =      3    ----
+   CODE SIZE        =      9    ----
    CONSTANT SIZE    =   ----    ----
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----
