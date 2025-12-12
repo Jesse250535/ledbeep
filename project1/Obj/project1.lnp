@@ -1,0 +1,8 @@
+".\Obj\beep.obj",
+".\Obj\led.obj",
+".\Obj\ired.obj",
+".\Obj\smg.obj",
+".\Obj\Public.obj",
+".\Obj\main.obj" 
+TO ".\Obj\project1" 
+PRINT(".\Obj\project1.m51") RAMSIZE(256) 
