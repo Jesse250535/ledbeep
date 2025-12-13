@@ -2,6 +2,8 @@
 ".\Obj\smg.obj",
 ".\Obj\beep.obj",
 ".\Obj\led.obj",
+".\Obj\lcd1602.obj",
+".\Obj\rectanglekey.obj",
 ".\Obj\Public.obj",
 ".\Obj\main.obj" 
 TO ".\Obj\project1" 
