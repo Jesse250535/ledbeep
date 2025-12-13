@@ -1,11 +1,11 @@
-C51 COMPILER V9.01   RECTANGLEKEY                                                          12/13/2025 20:38:04 PAGE 1   
+C51 COMPILER V9.01   RECTANGLEKEY                                                          12/13/2025 21:24:07 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE RECTANGLEKEY
 OBJECT MODULE PLACED IN .\Obj\rectanglekey.obj
 COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE App\rectanglekey\rectanglekey.c BROWSE INCDIR(.\Public;.\App\IRED;.\App\smg
-                    -;.\App\BEEP;.\App\LED;.\App\lcd1602;.\App\rectanglekey) DEBUG OBJECTEXTEND PRINT(.\Obj\rectanglekey.lst) OBJECT(.\Obj\re
-                    -ctanglekey.obj)
+                    -;.\App\BEEP;.\App\LED;.\App\lcd1602;.\App\rectanglekey;.\App\ds1302) DEBUG OBJECTEXTEND PRINT(.\Obj\rectanglekey.lst) OB
+                    -JECT(.\Obj\rectanglekey.obj)
 
 line level    source
 
@@ -62,7 +62,7 @@ line level    source
   51   3                              case 0xdd: key_value=11;break;
   52   3                              case 0xed: key_value=15;break;
   53   3                      }
-C51 COMPILER V9.01   RECTANGLEKEY                                                          12/13/2025 20:38:04 PAGE 2   
+C51 COMPILER V9.01   RECTANGLEKEY                                                          12/13/2025 21:24:07 PAGE 2   
 
   54   2              }
   55   1              while(KEY_MATRIX_PORT!=0xfd);//µÈ´ý°´¼üËÉ¿ª     

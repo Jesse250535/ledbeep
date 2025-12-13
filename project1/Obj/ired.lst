@@ -1,10 +1,10 @@
-C51 COMPILER V9.01   IRED                                                                  12/13/2025 20:37:53 PAGE 1   
+C51 COMPILER V9.01   IRED                                                                  12/13/2025 21:24:07 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE IRED
 OBJECT MODULE PLACED IN .\Obj\ired.obj
 COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE App\IRED\ired.c BROWSE INCDIR(.\Public;.\App\IRED;.\App\smg;.\App\BEEP;.\Ap
-                    -p\LED;.\App\lcd1602;.\App\rectanglekey) DEBUG OBJECTEXTEND PRINT(.\Obj\ired.lst) OBJECT(.\Obj\ired.obj)
+                    -p\LED;.\App\lcd1602;.\App\rectanglekey;.\App\ds1302) DEBUG OBJECTEXTEND PRINT(.\Obj\ired.lst) OBJECT(.\Obj\ired.obj)
 
 line level    source
 
@@ -62,7 +62,7 @@ line level    source
   52   5      
   53   5                                              time_cnt=20;
   54   5                                              while(ired1)
-C51 COMPILER V9.01   IRED                                                                  12/13/2025 20:37:53 PAGE 2   
+C51 COMPILER V9.01   IRED                                                                  12/13/2025 21:24:07 PAGE 2   
 
   55   5                                              {
   56   6                                                      delay_10us(10);

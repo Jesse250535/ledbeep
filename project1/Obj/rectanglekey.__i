@@ -1,1 +1,0 @@
-"App\rectanglekey\rectanglekey.c" BROWSE INCDIR(.\Public;.\App\IRED;.\App\smg;.\App\BEEP;.\App\LED;.\App\lcd1602;.\App\rectanglekey) DEBUG OBJECTEXTEND PRINT(.\Obj\rectanglekey.lst) OBJECT(.\Obj\rectanglekey.obj)

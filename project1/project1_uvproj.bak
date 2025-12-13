@@ -294,7 +294,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath>.\Public;.\App\IRED;.\App\smg;.\App\BEEP;.\App\LED;.\App\lcd1602</IncludePath>
+              <IncludePath>.\Public;.\App\IRED;.\App\smg;.\App\BEEP;.\App\LED;.\App\lcd1602;.\App\rectanglekey</IncludePath>
             </VariousControls>
           </C51>
           <Ax51>
@@ -370,6 +370,11 @@
               <FileName>lcd1602.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\App\lcd1602\lcd1602.c</FilePath>
+            </File>
+            <File>
+              <FileName>rectanglekey.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\App\rectanglekey\rectanglekey.c</FilePath>
             </File>
           </Files>
         </Group>
