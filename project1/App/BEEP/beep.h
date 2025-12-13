@@ -5,5 +5,6 @@
 
 sbit beep = P2^5;
 void beep_on();
+void beep_off();
 
 #endif
