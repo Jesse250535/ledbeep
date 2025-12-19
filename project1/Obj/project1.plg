@@ -3,109 +3,10 @@
 <pre>
 <h1>µVision Build Log</h1>
 <h2>Project:</h2>
-C:\Users\admin\Desktop\ledbeep\project1\project1.uvproj
+F:\µ¥Æ¬»ú\ledbeep\project1\project1.uvproj
 Project File Date:  12/13/2025
 
 <h2>Output:</h2>
-Build target 'Target 1'
-compiling main.c...
-USER\MAIN.C(24): warning C206: 'beep_on': missing function-prototype
-USER\MAIN.C(26): warning C206: 'led2_off': missing function-prototype
-USER\MAIN.C(32): warning C206: 'led2_on': missing function-prototype
-USER\MAIN.C(39): warning C206: 'led1_on': missing function-prototype
-USER\MAIN.C(41): warning C206: 'led1_off': missing function-prototype
-USER\MAIN.C(46): warning C206: 'led7_on': missing function-prototype
-USER\MAIN.C(48): warning C206: 'led7_off': missing function-prototype
-USER\MAIN.C(53): warning C206: 'led8_on': missing function-prototype
-USER\MAIN.C(55): warning C206: 'led8_off': missing function-prototype
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?BEEP_OFF?BEEP
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?KEY_MATRIX_RANKS_SCAN?RECTANGLEKEY
-Program Size: data=45.0 xdata=0 code=1487
-creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 12 Warning(s).
-Build target 'Target 1'
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?BEEP_OFF?BEEP
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?KEY_MATRIX_RANKS_SCAN?RECTANGLEKEY
-Program Size: data=45.0 xdata=0 code=1487
-creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling main.c...
-USER\MAIN.C(24): warning C206: 'beep_on': missing function-prototype
-USER\MAIN.C(26): warning C206: 'led2_off': missing function-prototype
-USER\MAIN.C(32): warning C206: 'led2_on': missing function-prototype
-USER\MAIN.C(39): warning C206: 'led1_on': missing function-prototype
-USER\MAIN.C(41): warning C206: 'led1_off': missing function-prototype
-USER\MAIN.C(46): warning C206: 'led7_on': missing function-prototype
-USER\MAIN.C(48): warning C206: 'led7_off': missing function-prototype
-USER\MAIN.C(53): warning C206: 'led8_on': missing function-prototype
-USER\MAIN.C(55): warning C206: 'led8_off': missing function-prototype
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?BEEP_OFF?BEEP
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?KEY_MATRIX_RANKS_SCAN?RECTANGLEKEY
-Program Size: data=45.0 xdata=0 code=1463
-creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 12 Warning(s).
-Build target 'Target 1'
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?BEEP_OFF?BEEP
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?KEY_MATRIX_RANKS_SCAN?RECTANGLEKEY
-Program Size: data=45.0 xdata=0 code=1463
-creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 3 Warning(s).
-Build target 'Target 1'
-compiling ired.c...
-compiling smg.c...
-compiling beep.c...
-compiling led.c...
-compiling lcd1602.c...
-compiling rectanglekey.c...
-compiling ds1302.c...
-compiling Public.c...
-compiling main.c...
-USER\MAIN.C(24): warning C206: 'beep_on': missing function-prototype
-USER\MAIN.C(26): warning C206: 'led2_off': missing function-prototype
-USER\MAIN.C(32): warning C206: 'led2_on': missing function-prototype
-USER\MAIN.C(39): warning C206: 'led1_on': missing function-prototype
-USER\MAIN.C(41): warning C206: 'led1_off': missing function-prototype
-USER\MAIN.C(46): warning C206: 'led7_on': missing function-prototype
-USER\MAIN.C(48): warning C206: 'led7_off': missing function-prototype
-USER\MAIN.C(53): warning C206: 'led8_on': missing function-prototype
-USER\MAIN.C(55): warning C206: 'led8_off': missing function-prototype
-linking...
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?BEEP_OFF?BEEP
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?_LCD1602_SHOW_STRING?LCD1602
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?KEY_MATRIX_RANKS_SCAN?RECTANGLEKEY
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?DS1302_INIT?DS1302
-*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
-    SEGMENT: ?PR?DS1302_READ_TIME?DS1302
-Program Size: data=71.0 xdata=0 code=1640
-creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 15 Warning(s).
 Build target 'Target 1'
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
@@ -124,16 +25,6 @@ Program Size: data=71.0 xdata=0 code=1640
 creating hex file from ".\Obj\project1"...
 ".\Obj\project1" - 0 Error(s), 6 Warning(s).
 Build target 'Target 1'
-compiling main.c...
-USER\MAIN.C(25): warning C206: 'beep_on': missing function-prototype
-USER\MAIN.C(27): warning C206: 'led2_off': missing function-prototype
-USER\MAIN.C(33): warning C206: 'led2_on': missing function-prototype
-USER\MAIN.C(40): warning C206: 'led1_on': missing function-prototype
-USER\MAIN.C(42): warning C206: 'led1_off': missing function-prototype
-USER\MAIN.C(47): warning C206: 'led7_on': missing function-prototype
-USER\MAIN.C(49): warning C206: 'led7_off': missing function-prototype
-USER\MAIN.C(54): warning C206: 'led8_on': missing function-prototype
-USER\MAIN.C(56): warning C206: 'led8_off': missing function-prototype
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
     SEGMENT: ?PR?BEEP_OFF?BEEP
@@ -149,7 +40,58 @@ linking...
     SEGMENT: ?PR?DS1302_READ_TIME?DS1302
 Program Size: data=71.0 xdata=0 code=1640
 creating hex file from ".\Obj\project1"...
-".\Obj\project1" - 0 Error(s), 15 Warning(s).
+".\Obj\project1" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BEEP_OFF?BEEP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD1602_SHOW_STRING?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_MATRIX_RANKS_SCAN?RECTANGLEKEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_INIT?DS1302
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_READ_TIME?DS1302
+Program Size: data=71.0 xdata=0 code=1640
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BEEP_OFF?BEEP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD1602_SHOW_STRING?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_MATRIX_RANKS_SCAN?RECTANGLEKEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_INIT?DS1302
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_READ_TIME?DS1302
+Program Size: data=71.0 xdata=0 code=1640
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 6 Warning(s).
+Build target 'Target 1'
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?BEEP_OFF?BEEP
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?LCD1602_CLEAR?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?_LCD1602_SHOW_STRING?LCD1602
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?KEY_MATRIX_RANKS_SCAN?RECTANGLEKEY
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_INIT?DS1302
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?DS1302_READ_TIME?DS1302
+Program Size: data=71.0 xdata=0 code=1640
+creating hex file from ".\Obj\project1"...
+".\Obj\project1" - 0 Error(s), 6 Warning(s).
 Build target 'Target 1'
 linking...
 *** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS

@@ -14,6 +14,8 @@ void main()
 	lcd1602_init();//LCD1602初始化
 
 
+
+
 	while(1)
 	{
 		ired_buf[0]=gsmg_code[gired_data[2]/16];//将控制码高 4 位转换为数码

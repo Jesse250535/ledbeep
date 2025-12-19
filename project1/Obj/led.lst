@@ -1,12 +1,14 @@
-C51 COMPILER V9.01   LED                                                                   12/13/2025 21:24:07 PAGE 1   
+C51 COMPILER V9.01   LED                                                                   12/13/2025 23:36:10 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE LED
 OBJECT MODULE PLACED IN .\Obj\led.obj
-COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE App\LED\led.c BROWSE INCDIR(.\Public;.\App\IRED;.\App\smg;.\App\BEEP;.\App\
-                    -LED;.\App\lcd1602;.\App\rectanglekey;.\App\ds1302) DEBUG OBJECTEXTEND PRINT(.\Obj\led.lst) OBJECT(.\Obj\led.obj)
+COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE App\LED\led.c BROWSE INCDIR(.\Public;.\App\IRED;.\App\smg;.\App\BEEP;.\A
+                    -pp\LED;.\App\lcd1602;.\App\rectanglekey;.\App\ds1302) DEBUG OBJECTEXTEND PRINT(.\Obj\led.lst) OBJECT(.\Obj\led.obj)
 
 line level    source
+
+*** WARNING C500 IN LINE 1 OF APP\LED\LED.C: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
 
    1          #include "led.h"
    2          
@@ -61,11 +63,11 @@ MODULE INFORMATION:   STATIC OVERLAYABLE
    XDATA SIZE       =   ----    ----
    PDATA SIZE       =   ----    ----
    DATA SIZE        =   ----    ----
-   IDATA SIZE       =   ----    ----
-C51 COMPILER V9.01   LED                                                                   12/13/2025 21:24:07 PAGE 2   
+C51 COMPILER V9.01   LED                                                                   12/13/2025 23:36:10 PAGE 2   
 
+   IDATA SIZE       =   ----    ----
    BIT SIZE         =   ----    ----
 END OF MODULE INFORMATION.
 
 
-C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
+C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)
