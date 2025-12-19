@@ -1,0 +1,6 @@
+".\Obj\beep.obj",
+".\Obj\smg.obj",
+".\Obj\main.obj",
+".\Obj\Public.obj" 
+TO ".\Obj\timeount" 
+PRINT(".\Obj\timeount.m51") RAMSIZE(256) 

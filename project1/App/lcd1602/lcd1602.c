@@ -160,3 +160,4 @@ void lcd1602_show_string(u8 x,u8 y,u8 *str)
 		}	
 	}				
 }
+

@@ -1,11 +1,10 @@
-C51 COMPILER V9.60.0.0   BEEP                                                              12/15/2025 08:33:32 PAGE 1   
+C51 COMPILER V9.01   BEEP                                                                  12/19/2025 15:34:42 PAGE 1   
 
 
-C51 COMPILER V9.60.0.0, COMPILATION OF MODULE BEEP
+C51 COMPILER V9.01, COMPILATION OF MODULE BEEP
 OBJECT MODULE PLACED IN .\Obj\beep.obj
-COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE App\BEEP\beep.c OPTIMIZE(8,SPEED) BROWSE INCDIR(.\Public;.\App\IRED;.\Ap
-                    -p\smg;.\App\BEEP;.\App\LED;.\App\lcd1602;.\App\rectanglekey;.\App\ds1302) DEBUG OBJECTEXTEND PRINT(.\Obj\beep.lst) TABS(
-                    -2) OBJECT(.\Obj\beep.obj)
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE App\BEEP\beep.c BROWSE INCDIR(.\Public;.\App\IRED;.\App\smg;.\App\BEEP;.\Ap
+                    -p\LED;.\App\lcd1602;.\App\rectanglekey;.\App\ds1302) DEBUG OBJECTEXTEND PRINT(.\Obj\beep.lst) OBJECT(.\Obj\beep.obj)
 
 line level    source
 
@@ -13,14 +12,14 @@ line level    source
    2          
    3          void beep_on()
    4          {
-   5   1        beep=!beep;
-   6   1        delay_10us(60);
+   5   1              beep=!beep;
+   6   1              delay_10us(60);
    7   1      }
    8          
    9          void beep_off()
   10          {
-  11   1        beep=0;
-  12   1        delay_10us(60);
+  11   1              beep=0;
+  12   1              delay_10us(60);
   13   1      
   14   1      }
 
