@@ -1,14 +1,12 @@
-C51 COMPILER V9.01   BEEP                                                                  12/13/2025 23:36:10 PAGE 1   
+C51 COMPILER V9.01   BEEP                                                                  12/19/2025 15:34:42 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE BEEP
 OBJECT MODULE PLACED IN .\Obj\beep.obj
-COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE App\BEEP\beep.c BROWSE INCDIR(.\Public;.\App\IRED;.\App\smg;.\App\BEEP;.
-                    -\App\LED;.\App\lcd1602;.\App\rectanglekey;.\App\ds1302) DEBUG OBJECTEXTEND PRINT(.\Obj\beep.lst) OBJECT(.\Obj\beep.obj)
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE App\BEEP\beep.c BROWSE INCDIR(.\Public;.\App\IRED;.\App\smg;.\App\BEEP;.\Ap
+                    -p\LED;.\App\lcd1602;.\App\rectanglekey;.\App\ds1302) DEBUG OBJECTEXTEND PRINT(.\Obj\beep.lst) OBJECT(.\Obj\beep.obj)
 
 line level    source
-
-*** WARNING C500 IN LINE 1 OF APP\BEEP\BEEP.C: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
 
    1          #include "beep.h"
    2          
@@ -37,4 +35,4 @@ MODULE INFORMATION:   STATIC OVERLAYABLE
 END OF MODULE INFORMATION.
 
 
-C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)

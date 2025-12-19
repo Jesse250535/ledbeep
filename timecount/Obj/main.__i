@@ -1,0 +1,1 @@
+"User\main.c" BROWSE INCDIR(.\App\BEEP;.\App\smg;.\Public) DEBUG OBJECTEXTEND PRINT(.\Obj\main.lst) OBJECT(.\Obj\main.obj)

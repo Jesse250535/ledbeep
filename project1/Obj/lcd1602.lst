@@ -1,15 +1,13 @@
-C51 COMPILER V9.01   LCD1602                                                               12/13/2025 23:36:10 PAGE 1   
+C51 COMPILER V9.01   LCD1602                                                               12/19/2025 16:47:05 PAGE 1   
 
 
 C51 COMPILER V9.01, COMPILATION OF MODULE LCD1602
 OBJECT MODULE PLACED IN .\Obj\lcd1602.obj
-COMPILER INVOKED BY: D:\Keil_v5\C51\BIN\C51.EXE App\lcd1602\lcd1602.c BROWSE INCDIR(.\Public;.\App\IRED;.\App\smg;.\App\
-                    -BEEP;.\App\LED;.\App\lcd1602;.\App\rectanglekey;.\App\ds1302) DEBUG OBJECTEXTEND PRINT(.\Obj\lcd1602.lst) OBJECT(.\Obj\l
-                    -cd1602.obj)
+COMPILER INVOKED BY: C:\Keil\C51\BIN\C51.EXE App\lcd1602\lcd1602.c BROWSE INCDIR(.\Public;.\App\IRED;.\App\smg;.\App\BEE
+                    -P;.\App\LED;.\App\lcd1602;.\App\rectanglekey;.\App\ds1302) DEBUG OBJECTEXTEND PRINT(.\Obj\lcd1602.lst) OBJECT(.\Obj\lcd1
+                    -602.obj)
 
 line level    source
-
-*** WARNING C500 IN LINE 1 OF APP\LCD1602\LCD1602.C: LICENSE ERROR (R208: RENEW LICENSE ID CODE (LIC))
 
    1          #include "lcd1602.h"
    2          
@@ -63,9 +61,9 @@ line level    source
   50          {
   51   1              LCD1602_RS=1;//选择数据
   52   1              LCD1602_RW=0;//选择写
-C51 COMPILER V9.01   LCD1602                                                               12/13/2025 23:36:10 PAGE 2   
-
   53   1              LCD1602_E=0;
+C51 COMPILER V9.01   LCD1602                                                               12/19/2025 16:47:05 PAGE 2   
+
   54   1              LCD1602_DATAPORT=dat;//准备数据
   55   1              delay_ms(1);
   56   1              LCD1602_E=1;//使能脚E先上升沿写入
@@ -127,9 +125,9 @@ line level    source
  112   1              lcd1602_write_cmd(0x01);        
  113   1      }
  114          
-C51 COMPILER V9.01   LCD1602                                                               12/13/2025 23:36:10 PAGE 3   
-
  115          /*******************************************************************************
+C51 COMPILER V9.01   LCD1602                                                               12/19/2025 16:47:05 PAGE 3   
+
  116          * 函 数 名       : lcd1602_show_string
  117          * 函数功能               : LCD1602显示字符
  118          * 输    入       : x,y：显示坐标，x=0~15，y=0~1;
@@ -177,6 +175,7 @@ line level    source
  160   3                      }       
  161   2              }                               
  162   1      }
+ 163          
 
 
 MODULE INFORMATION:   STATIC OVERLAYABLE
@@ -190,4 +189,4 @@ MODULE INFORMATION:   STATIC OVERLAYABLE
 END OF MODULE INFORMATION.
 
 
-C51 COMPILATION COMPLETE.  1 WARNING(S),  0 ERROR(S)
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
